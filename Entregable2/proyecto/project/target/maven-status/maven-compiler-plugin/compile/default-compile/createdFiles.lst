@@ -1,0 +1,15 @@
+com\example\project\entity\EstadoUsu.class
+com\example\project\entity\EstadoMensaje.class
+com\example\project\entity\EstadoEspacio.class
+com\example\project\entity\Lugar.class
+com\example\project\entity\Reserva.class
+com\example\project\entity\Usuarios.class
+com\example\project\entity\Geolocalizacion.class
+com\example\project\entity\EstadoGeo.class
+com\example\project\entity\EstadoReserva.class
+com\example\project\repository\UsuariosRepository.class
+com\example\project\entity\Espacio.class
+com\example\project\entity\Mensaje.class
+com\example\project\ProjectApplication.class
+com\example\project\controller\HomeController.class
+com\example\project\entity\Rol.class
