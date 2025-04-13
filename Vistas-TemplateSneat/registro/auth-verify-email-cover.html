@@ -1,4 +1,37 @@
 <!DOCTYPE html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- =========================================================
 * Sneat - Bootstrap Dashboard PRO | v1.0.0
 ==============================================================
@@ -16,12 +49,12 @@
 <html lang="en" class="light-style layout-wide  customizer-hide" dir="ltr" data-theme="theme-semi-dark" data-assets-path="../../assets/" data-template="vertical-menu-template-semi-dark">
 
   
-<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/auth-two-steps-cover.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Apr 2024 23:15:13 GMT -->
+<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/auth-verify-email-cover.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Apr 2024 23:15:10 GMT -->
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-    <title>Demo : Two Steps Verifications Cover - Pages | Sneat - Bootstrap Dashboard PRO</title>
+    <title>Demo : Verify Email Cover - Pages | Sneat - Bootstrap Dashboard PRO</title>
 
     
     <meta name="description" content="Most Powerful &amp; Comprehensive Bootstrap 5 Admin Dashboard built for developers!" />
@@ -59,8 +92,7 @@
     <!-- Vendors CSS -->
     <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
     <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" /> 
-    <!-- Vendor -->
-<link rel="stylesheet" href="../../assets/vendor/libs/%40form-validation/form-validation.css" />
+    
 
     <!-- Page CSS -->
     <!-- Page -->
@@ -91,16 +123,15 @@
     <!-- /Left Text -->
     <div class="d-none d-lg-flex col-lg-7 col-xl-8 align-items-center p-5">
       <div class="w-100 d-flex justify-content-center">
-        <img src="../../assets/img/illustrations/girl-verify-password-light.png" class="img-fluid" alt="Login image" width="600" data-app-dark-img="illustrations/girl-verify-password-dark.png" data-app-light-img="illustrations/girl-verify-password-light.html">
+        <img src="../../assets/img/illustrations/boy-verify-email-light.png" class="img-fluid" alt="Login image" width="600" data-app-dark-img="illustrations/boy-verify-email-dark.png" data-app-light-img="illustrations/boy-verify-email-light.html">
 
       </div>
     </div>
     <!-- /Left Text -->
 
-    <!-- Two Steps Verification -->
+    <!--  Verify email -->
     <div class="d-flex col-12 col-lg-5 col-xl-4 align-items-center authentication-bg p-4 p-sm-5">
       <div class="w-px-400 mx-auto">
-        <!-- Logo -->
         <div class="app-brand mb-5">
           <a href="index.html" class="app-brand-link gap-2">
             <span class="app-brand-logo demo">
@@ -142,39 +173,21 @@
             <span class="app-brand-text demo text-body fw-bold">Sneat</span>
           </a>
         </div>
-        <!-- /Logo -->
-
-        <h4 class="mb-2">Two Step Verification 💬</h4>
-        <p class="text-start mb-4">
-          We sent a verification code to your mobile. Enter the code from the mobile in the field below.
-          <span class="fw-medium d-block mt-2">******1234</span>
+        <h3 class="mb-2">Verify your email ✉️</h3>
+        <p class="text-start">
+          Account activation link sent to your email address: hello@example.com Please follow the link inside to continue.
         </p>
-        <p class="mb-0 fw-medium">Type your 6 digit security code</p>
-        <form id="twoStepsForm" action="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/index.html" method="GET">
-          <div class="mb-3">
-            <div class="auth-input-wrapper d-flex align-items-center justify-content-sm-between numeral-mask-wrapper">
-              <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1" autofocus>
-              <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
-              <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
-              <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
-              <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
-              <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
-            </div>
-            <!-- Create a hidden field which is combined by 3 fields above -->
-            <input type="hidden" name="otp" />
-          </div>
-          <button class="btn btn-primary d-grid w-100 mb-3">
-            Verify my account
-          </button>
-          <div class="text-center">Didn't get the code?
-            <a href="javascript:void(0);">
-              Resend
-            </a>
-          </div>
-        </form>
+        <a class="btn btn-primary w-100 my-3" href="index.html">
+          Skip for now
+        </a>
+        <p class="text-center">Didn't get the mail?
+          <a href="javascript:void(0);" class="ms-2">
+            Resend
+          </a>
+        </p>
       </div>
     </div>
-    <!-- /Two Steps Verification -->
+    <!-- / Verify email -->
   </div>
 </div>
 
@@ -203,23 +216,21 @@
   <!-- endbuild -->
 
   <!-- Vendors JS -->
-  <script src="../../assets/vendor/libs/cleavejs/cleave.js"></script>
-<script src="../../assets/vendor/libs/%40form-validation/popular.js"></script>
-<script src="../../assets/vendor/libs/%40form-validation/bootstrap5.js"></script>
-<script src="../../assets/vendor/libs/%40form-validation/auto-focus.js"></script>
+  
+  
 
   <!-- Main JS -->
   <script src="../../assets/js/main.js"></script>
   
 
   <!-- Page JS -->
-  <script src="../../assets/js/pages-auth.js"></script>
-<script src="../../assets/js/pages-auth-two-steps.js"></script>
+  
+  
   
 </body>
 
 
-<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/auth-two-steps-cover.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Apr 2024 23:15:14 GMT -->
+<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/auth-verify-email-cover.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Apr 2024 23:15:11 GMT -->
 </html>
 
 <!-- beautify ignore:end -->
