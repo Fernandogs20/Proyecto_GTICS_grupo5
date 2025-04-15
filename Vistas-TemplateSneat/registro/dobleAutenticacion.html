@@ -1,16 +1,23 @@
 <!DOCTYPE html>
+<!-- =========================================================
+* Municipalidad de San Miguel - Sistema de Reservas de Canchas
+==============================================================
+* Página del Producto: (Licencia requerida para uso comercial)
+=========================================================
+ -->
+<!-- beautify ignore:start -->
 <html lang="es" class="light-style layout-wide customizer-hide" dir="ltr" data-theme="theme-semi-dark" data-assets-path="../../assets/" data-template="vertical-menu-template-semi-dark">
-<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/auth-forgot-password-cover.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Apr 2024 23:15:12 GMT -->
+<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/auth-two-steps-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Apr 2024 23:15:13 GMT -->
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0" />
 
-  <title>Recuperar Contraseña - Municipalidad de San Miguel</title>
+  <title>Demo: Verificación en dos pasos Básica - Páginas | Municipalidad de San Miguel</title>
 
-  <meta name="description" content="Recupera la contraseña del sistema de reservas de canchas de la Municipalidad de San Miguel" />
-  <meta name="keywords" content="municipalidad, reservas, canchas, recuperar contraseña" />
+  <meta name="description" content="El dashboard más poderoso y completo construido en Bootstrap 5 para desarrolladores." />
+  <meta name="keywords" content="dashboard, verificación, bootstrap 5, diseño, administración">
   <!-- Canonical SEO -->
-  <link rel="canonical" href="https://tusitiomunicipal.com/recuperar-contrasena">
+  <link rel="canonical" href="https://themeselection.com/item/sneat-dashboard-pro-bootstrap/">
 
   <!-- ? PROD Only: Google Tag Manager (Default ThemeSelection: GTM-5DDHKGP, PixInvent: GTM-5J3LMKC) -->
   <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -19,7 +26,7 @@
     '../../../../www.googletagmanager.com/gtm5445.html?id='+i+dl;f.parentNode.insertBefore(j,f);
     })(window,document,'script','dataLayer','GTM-5DDHKGP');</script>
   <!-- End Google Tag Manager -->
-
+  
   <!-- Favicon -->
   <link rel="icon" type="image/x-icon" href="https://demos.themeselection.com/sneat-bootstrap-html-admin-template/assets/img/favicon/favicon.ico" />
 
@@ -37,50 +44,41 @@
   <link rel="stylesheet" href="../../assets/vendor/css/rtl/core.css" class="template-customizer-core-css" />
   <link rel="stylesheet" href="../../assets/vendor/css/rtl/theme-semi-dark.css" class="template-customizer-theme-css" />
   <link rel="stylesheet" href="../../assets/css/demo.css" />
-
+  
   <!-- Vendors CSS -->
   <link rel="stylesheet" href="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.css" />
-  <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" /> 
+  <link rel="stylesheet" href="../../assets/vendor/libs/typeahead-js/typeahead.css" />
   <!-- Vendor -->
   <link rel="stylesheet" href="../../assets/vendor/libs/%40form-validation/form-validation.css" />
 
   <!-- Page CSS -->
-  <!-- Page -->
   <link rel="stylesheet" href="../../assets/vendor/css/pages/page-auth.css">
 
   <!-- Helpers -->
   <script src="../../assets/vendor/js/helpers.js"></script>
   <!--! Template customizer & Theme config files MUST be included after core stylesheets and helpers.js in the <head> section -->
-  <!--? Template customizer: To hide customizer set displayCustomizer value false in config.js.  -->
+  <!--? Template customizer: Para ocultar el personalizador, establezca displayCustomizer en false en config.js.  -->
   <script src="../../assets/vendor/js/template-customizer.js"></script>
-  <!--? Config:  Mandatory theme config file contain global vars & default theme options, Set your preferred theme option in this file.  -->
+  <!--? Config: Archivo de configuración obligatorio con variables globales y opciones de tema predeterminadas. Establezca su opción de tema preferida en este archivo.  -->
   <script src="../../assets/js/config.js"></script>
   
 </head>
 
 <body>
-
-  <!-- ?PROD Only: Google Tag Manager (noscript) (Default ThemeSelection: GTM-5DDHKGP, PixInvent: GTM-5J3LMKC) -->
-  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DDHKGP" height="0" width="0" style="display: none; visibility: hidden"></iframe></noscript>
+  <!-- ? PROD Only: Google Tag Manager (noscript) (Default ThemeSelection: GTM-5DDHKGP, PixInvent: GTM-5J3LMKC) -->
+  <noscript>
+    <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5DDHKGP" height="0" width="0" style="display: none; visibility: hidden"></iframe>
+  </noscript>
   <!-- End Google Tag Manager (noscript) -->
   
   <!-- Content -->
-  <div class="authentication-wrapper authentication-cover">
-    <div class="authentication-inner row m-0">
-
-      <!-- /Left Text -->
-      <div class="d-none d-lg-flex col-lg-7 col-xl-8 align-items-center p-5">
-        <div class="w-100 d-flex justify-content-center">
-          <img src="../../assets/img/illustrations/girl-unlock-password-light.png" class="img-fluid" alt="Imagen de recuperación" width="600" data-app-dark-img="illustrations/girl-unlock-password-dark.png" data-app-light-img="illustrations/girl-unlock-password-light.html">
-        </div>
-      </div>
-      <!-- /Left Text -->
-
-      <!-- Recuperar Contraseña -->
-      <div class="d-flex col-12 col-lg-5 col-xl-4 align-items-center authentication-bg p-sm-5 p-4">
-        <div class="w-px-400 mx-auto">
+  <div class="authentication-wrapper authentication-basic px-4">
+    <div class="authentication-inner">
+      <!-- Verificación en dos pasos -->
+      <div class="card">
+        <div class="card-body">
           <!-- Logo -->
-          <div class="app-brand mb-5">
+          <div class="app-brand justify-content-center">
             <a href="index.html" class="app-brand-link gap-2">
               <span class="app-brand-logo demo">
                 <svg width="25" viewBox="0 0 25 42" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
@@ -116,60 +114,77 @@
                   </g>
                 </svg>
               </span>
-              <span class="app-brand-text demo demo text-body fw-bold">Municipalidad de San Miguel</span>
+              <span class="app-brand-text demo text-body fw-bold">Reserva de espacios</span>
             </a>
           </div>
           <!-- /Logo -->
-          <h4 class="mb-2">Recuperar Contraseña 🔒</h4>
-          <p class="mb-4">Ingrese su correo o número de celular y le enviaremos instrucciones para restablecer su contraseña</p>
-          <form id="formAuthentication" class="mb-3" action="/auth-reset-password" method="POST">
+          <h4 class="mb-2">Verificación en dos pasos 💬</h4>
+          <p class="text-start mb-4">
+            Hemos enviado un código de verificación a su móvil. Ingrese el código a continuación.
+            <span class="fw-medium d-block mt-2">******1234</span>
+          </p>
+          <p class="mb-0 fw-medium">Escriba su código de seguridad de 6 dígitos</p>
+          <form id="twoStepsForm" action="https://tusitiomunicipal.com/verificar" method="GET">
             <div class="mb-3">
-              <label for="email" class="form-label">Correo o número de celular</label>
-              <input type="text" class="form-control" id="email" name="email" placeholder="Ingrese su correo o número de celular" autofocus>
+              <div class="auth-input-wrapper d-flex align-items-center justify-content-sm-between numeral-mask-wrapper">
+                <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1" autofocus>
+                <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
+                <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
+                <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
+                <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
+                <input type="tel" class="form-control auth-input h-px-50 text-center numeral-mask mx-1 my-2" maxlength="1">
+              </div>
+              <!-- Campo oculto que agrupa los dígitos ingresados -->
+              <input type="hidden" name="otp" />
             </div>
-            <button class="btn btn-primary d-grid w-100" type="submit">Enviar enlace de restablecimiento</button>
+            <button class="btn btn-primary d-grid w-100 mb-3" type="submit">
+              Verificar mi cuenta
+            </button>
+            <div class="text-center">
+              ¿No recibió el código?
+              <a href="javascript:void(0);">
+                Reenviar
+              </a>
+            </div>
           </form>
-          <div class="text-center">
-            <a href="auth-login-cover.html" class="d-flex align-items-center justify-content-center">
-              <i class="bx bx-chevron-left scaleX-n1-rtl bx-sm"></i>
-              Volver a iniciar sesión
-            </a>
-          </div>
         </div>
       </div>
-      <!-- /Recuperar Contraseña -->
+      <!-- /Verificación en dos pasos -->
     </div>
   </div>
-  <!-- / Content -->
+</div>
 
-  <!-- Se han eliminado las referencias al autor (Buy Now) -->
+<!-- / Content -->
 
-  <!-- Core JS -->
-  <!-- build:js assets/vendor/js/core.js -->
-  <script src="../../assets/vendor/libs/jquery/jquery.js"></script>
-  <script src="../../assets/vendor/libs/popper/popper.js"></script>
-  <script src="../../assets/vendor/js/bootstrap.js"></script>
-  <script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
-  <script src="../../assets/vendor/libs/hammer/hammer.js"></script>
-  <script src="../../assets/vendor/libs/i18n/i18n.js"></script>
-  <script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
-  <script src="../../assets/vendor/js/menu.js"></script>
-  <!-- endbuild -->
+<!-- Se han eliminado los bloques que hacen referencia a la plantilla original ("Buy Now") -->
 
-  <!-- Vendors JS -->
-  <script src="../../assets/vendor/libs/%40form-validation/popular.js"></script>
-  <script src="../../assets/vendor/libs/%40form-validation/bootstrap5.js"></script>
-  <script src="../../assets/vendor/libs/%40form-validation/auto-focus.js"></script>
+<!-- Core JS -->
+<!-- build:js assets/vendor/js/core.js -->
+<script src="../../assets/vendor/libs/jquery/jquery.js"></script>
+<script src="../../assets/vendor/libs/popper/popper.js"></script>
+<script src="../../assets/vendor/js/bootstrap.js"></script>
+<script src="../../assets/vendor/libs/perfect-scrollbar/perfect-scrollbar.js"></script>
+<script src="../../assets/vendor/libs/hammer/hammer.js"></script>
+<script src="../../assets/vendor/libs/i18n/i18n.js"></script>
+<script src="../../assets/vendor/libs/typeahead-js/typeahead.js"></script>
+<script src="../../assets/vendor/js/menu.js"></script>
+<!-- endbuild -->
 
-  <!-- Main JS -->
-  <script src="../../assets/js/main.js"></script>
+<!-- Vendors JS -->
+<script src="../../assets/vendor/libs/cleavejs/cleave.js"></script>
+<script src="../../assets/vendor/libs/%40form-validation/popular.js"></script>
+<script src="../../assets/vendor/libs/%40form-validation/bootstrap5.js"></script>
+<script src="../../assets/vendor/libs/%40form-validation/auto-focus.js"></script>
 
-  <!-- Page JS -->
-  <script src="../../assets/js/pages-auth.js"></script>
+<!-- Main JS -->
+<script src="../../assets/js/main.js"></script>
+
+<!-- Page JS -->
+<script src="../../assets/js/pages-auth.js"></script>
+<script src="../../assets/js/pages-auth-two-steps.js"></script>
   
 </body>
 
-<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/auth-forgot-password-cover.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Apr 2024 23:15:13 GMT -->
+<!-- Mirrored from demos.themeselection.com/sneat-bootstrap-html-admin-template/html/vertical-menu-template-semi-dark/auth-two-steps-basic.html by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 26 Apr 2024 23:15:13 GMT -->
 </html>
-
 <!-- beautify ignore:end -->
